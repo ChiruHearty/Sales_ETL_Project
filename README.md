@@ -1,11 +1,11 @@
-# 📊 Sales & Revenue Analytics ETL Pipeline
+# Sales & Revenue Analytics ETL Pipeline
 
 An end-to-end **Sales & Revenue Analytics** project demonstrating a complete **ETL pipeline** using **Python, MySQL, SQL, and Power BI**.  
 The project simulates real-world business data and delivers actionable insights through interactive dashboards.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 **Business Objective:**  
 To analyze sales performance, revenue trends, customer behavior, and product performance for a retail business.
@@ -18,7 +18,7 @@ To analyze sales performance, revenue trends, customer behavior, and product per
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Tools |
 |-----|------|
@@ -31,7 +31,7 @@ To analyze sales performance, revenue trends, customer behavior, and product per
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Sales_ETL_Project/
@@ -60,7 +60,7 @@ Sales_ETL_Project/
 
 ---
 
-## 🧱 Data Model (Star Schema)
+##  Data Model (Star Schema)
 
 **Fact Table**
 - `vw_sales_fact`
@@ -78,7 +78,7 @@ Revenue = Quantity × Price
 
 ---
 
-## 📈 Dataset Details
+##  Dataset Details
 
 | Table | Records |
 |-----|--------|
@@ -90,7 +90,7 @@ Revenue = Quantity × Price
 
 ---
 
-## 🔄 ETL Pipeline Flow
+##  ETL Pipeline Flow
 
 1. **Extract**
    - Synthetic business data generated using Python & Faker
@@ -106,7 +106,7 @@ Revenue = Quantity × Price
 
 ---
 
-## 📊 SQL Analytics Highlights
+##  SQL Analytics Highlights
 
 - Total Revenue, Orders, AOV
 - Monthly & Year-over-Year revenue trends
@@ -116,7 +116,7 @@ Revenue = Quantity × Price
 
 ---
 
-## 📉 Power BI Dashboards
+##  Power BI Dashboards
 
 ### 🔹 Executive Overview
 - Total Revenue
@@ -141,7 +141,7 @@ Revenue = Quantity × Price
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 
 - Designed and implemented a production-style ETL pipeline
 - Built optimized SQL views for BI consumption
@@ -149,51 +149,6 @@ Revenue = Quantity × Price
 - Developed business-focused dashboards for stakeholders
 
 ---
-
-## 🧪 How to Run This Project
-
-1. Clone the repository
-```bash
-git clone https://github.com/your-username/Sales_ETL_Project.git
-```
-
-2. Generate data
-```bash
-python python/data_generation.py
-```
-
-3. Load data into MySQL
-```bash
-python python/etl_load_to_mysql.py
-```
-
-4. Open Power BI dashboard
-```
-powerbi/sales_dashboard.pbix
-```
-
----
-
-## 💼 Resume-Ready Description
-
-> Built an end-to-end Sales & Revenue Analytics ETL pipeline using Python, MySQL, SQL, and Power BI. Designed star-schema data models, generated and loaded 2000+ records, created optimized SQL views, and developed interactive dashboards to deliver actionable business insights.
-
----
-
-## 📌 Future Enhancements
-
-- Automate ETL using Airflow
-- Add incremental data loading
-- Implement Slowly Changing Dimensions (SCD)
-- Deploy dashboards to Power BI Service
-- Add forecasting using Python
-
----
-
-## 🤝 Author
-
-**Chiranjeevi Kalvakuntla**  
-Data Analyst | Data Engineer  
 
 ---
 
