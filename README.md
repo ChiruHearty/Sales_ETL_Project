@@ -102,7 +102,7 @@ Revenue = Quantity × Price
 
 3. **Load**
    - CSV data loaded into MySQL using SQLAlchemy
-   - Foreign keys and indexes applied post-load
+   - Primary keys, Foreign keys and indexes applied post-load
 
 ---
 
@@ -149,8 +149,3 @@ Revenue = Quantity × Price
 - Developed business-focused dashboards for stakeholders
 
 ---
-
----
-
-## ⭐ If you found this useful
-Give the repo a ⭐ and feel free to fork or contribute!
