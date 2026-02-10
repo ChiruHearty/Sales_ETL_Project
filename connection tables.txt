@@ -1,0 +1,25 @@
+Sales_ETL_Project/
+│
+├── data/
+│   ├── raw/
+        ├── customers.csv
+        ├── categories.csv
+        ├── products.csv
+        ├── orders.csv
+        └── order_items.csv
+│   ├── processed/
+│
+├── sql/
+│   ├── table_creation.sql
+│   ├── analytics_queries.sql
+│
+├── python/
+│   ├── data_generation.py
+│   ├── etl_pipeline.py
+│
+├── powerbi/
+│   ├── sales_dashboard.pbix
+│
+└── README.md
+
+
