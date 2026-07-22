@@ -1,0 +1,4 @@
+*.ipynb linguist-language=Python
+*.sql linguist-language=SQL
+*.pbix linguist-language=Power BI
+*.ipynb linguist-language=Jupyter Notebook
